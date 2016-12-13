@@ -1,0 +1,34 @@
+# Uncomment this line to define a global platform for your project
+#声明你项目的最低兼容版本号, pod会根据此标志去下载对应版本的第三方
+platform :ios, '8.0'
+
+target 'Day10_PodDemo' do
+    # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+    # use_frameworks!
+    # 把要引入的第三方写成 pod '第三方名字'  然后pod update即可
+    
+    # 提供了大量的类别+网络图片获取+JSON解析...
+    pod 'YYKit'
+    pod 'MJRefresh'
+    pod 'Masonry'
+    
+    # 取代原生NSURLSession发请求, 在实际工作中使用
+    pod 'AFNetworking'
+    
+    # 把target+selector模式/delegate模式 转为 block方式
+    pod 'BlocksKit'
+    
+    pod 'MLTransition'
+    pod 'MBProgressHUD'
+    
+    # 如果pod完的第三方,不想要了 那么把 pod '' 此行注释掉, 然后重新pod update 即可
+    # 对于已经pod引入的第三方 就不要再手动引入了,否则会导致类的重复定义
+end
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  Day10_PodDemo
+//
+//  Created by tarena on 16/9/12.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//注意!! 使用cocoapods引入的第三方, 需要用<>引入
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+
+#import <MJRefresh.h>
+
+//屏幕上的弹出提示控件
+#import <MBProgressHUD.h>
+
+#import <YYKit.h>
+
+#import <AFNetworking.h>
+#import <UIKit+AFNetworking.h>
+
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+
+#import "NSObject+Parse.h"
+#import "NSString+YX.h"
+#import "UIView+HUD.h"
+#import "UIScrollView+Refresh.h"
+
+#endif /* PrefixHeader_pch */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
