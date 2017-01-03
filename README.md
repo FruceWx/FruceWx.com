@@ -14,6 +14,6 @@
    c. AVPlayerViewController + AVPlayer(URL)
    d. tmp文件夹下的音频copy到/Library或者/Documents
    
-   
-   #FaceIt
+   
+# FaceIt
    学习斯坦福大学Swift的视频，觉得他们的代码写的很优雅，学习并添加了自己的理解。
